@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Heading utama untuk judul -->
+    <h1> 
+       Profil Pribadi
+    </h1>
+    <!-- Sub-judul bagian Tentang Saya -->
+    <h2> 
+        Tentang Saya
+        <!-- Div untuk mengelompokkan foto & video agar sejajar -->
+        <div style="display: flex; justify-content: left; gap: 10px;">
+            
+            <!-- Div khusus foto -->
+            <div style="text-align: center;">
+                <h5>Foto Profil</h5>
+                <!-- Img untuk menampilkan foto profil -->
+                <img src="foto profil.png" alt="Foto Profil" width="200">
+            </div>
+
+            <!--Div khusus video -->
+            <div style="text-align: center;">
+                <h4>Video Perkenalan</h4>
+                <video width="320" controls>
+                <!-- Sumber untuk menampilkan file video -->
+                <source src="video perkenalan.mp4" type="video/mp4">
+                </video>
+            </div>
+
+        </div>
+
+    </h2>
+    <!-- Paragraf tentang saya -->
+    <p>
+        Saya adalah seorang mahasiswa jurusan S1 Teknologi Informasi Angkatan 2023. Saya senang belajar mempelajari dunia pemograman.
+        <br> <!-- break agar tidak kepanjangan -->
+        Saya memiliki minat yang kuat pada teknologi dan ingin terus belajar dan meningkatkan keterampilan saya dalam berbagai bahasa
+        <br>
+        pemrograman dan teknologi terkait.
+    </p>
+    <!-- Sub-judul bagian Tentang Saya -->
+    <h2>
+        Keterampilan
+    </h2>
+    <table>
+        <tr>
+            <!-- Table header kolom keterampilan dan tingkat -->
+            <th>Keterampilan</th> 
+            <th>Tingkat</th>
+        </tr>
+        <tr>
+            <!-- Isi tabel baris 1 -->
+            <td>HTML/CSS</td>
+            <td>Menengah</td>
+        </tr>
+        <tr>
+            <!-- Isi tabel baris 2 -->
+            <td>Java Script</td>
+            <td>Pemula</td>
+        </tr>
+        <tr>
+            <!-- Isi tabel baris 3 -->
+            <td>Python</td>
+            <td>Menengah</td>
+        </tr>
+    </table>
+    <!-- Sub-judul bagian kontak -->
+    <h2>
+        Hubungi Saya 
+    </h2>
+    <!-- Form untuk input data pengguna -->
+    <form>
+        <!-- Input teks untuk nama dan email-->
+        Nama :
+        <input type="text" name="nama" /><br/>
+        Email :
+        <input type="text" name="Email"/><br/>
+        Pesan : <br/>
+        <!-- Textarea untuk pesan panjang -->
+        <textarea name="message" row="50" cols=""></textarea>
+        <br/>
+        <!-- Textarea untuk pesan panjang -->
+        <button type="submit">Kirim Pesan</button>
+    </form>
+
+    <!-- Sub-judul bagian media sosial -->
+    <h2>
+        Media Sosial
+    </h2>
+    <!-- Link ke LinkedIn, GitHub dan twitter-->
+    <a href="https://www.linkedin.com/in/Risydhalynadewia/">LinkedIn |</a>
+    <a href="https://github.com/lynarisydha">GitHub |</a>
+    <a href="https://github.com/lynarisydha">Twitter </a>
+    
+</body>
+</html>
